@@ -11,12 +11,32 @@ body{
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
 }
-.h2-header-modifier, .h6-section-modifier{
+.h2-header-modifier, .h6-section-modifier, .flavors{
     background-color: rgb(56, 15, 3);
     margin: 20px;
     padding: 20px;
     border-radius: 20px;
     text-align: center;
+    color: white;
+}
+#ul-navbar{
+    background-color: rgb(167, 9, 88);
+    border-radius: 15px;
+    padding: 20px;
+}
+.li-navbar{
+    list-style: none;
+    display: inline;
+    margin-right: 20px;
+}
+.link-navbar{
+    color: white;
+}
+.link-navbar:hover{
+    text-decoration: none;
+    background-image: linear-gradient(pink, lightpink, magenta);
+    padding: 5px;
+    border-radius: 5px;
     color: white;
 }
 .header_config{
